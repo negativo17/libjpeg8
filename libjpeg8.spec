@@ -1,5 +1,5 @@
 Name:           libjpeg8
-Version:        2.1.4
+Version:        2.1.5.1
 Release:        1%{?dist}
 Summary:        A MMX/SSE2/SIMD accelerated library for manipulating JPEG image files
 License:        IJG
@@ -44,5 +44,8 @@ install -m 0755 -p %{_vpath_builddir}/libjpeg.so.* %{buildroot}%{_libdir}
 %{_libdir}/libjpeg.so.*
 
 %changelog
+* Fri May 29 2026 Simone Caronni <negativo17@gmail.com> - 2.1.5.1-1
+- Update to 2.1.5.1.
+
 * Sat Jul 06 2024 Simone Caronni <negativo17@gmail.com> - 2.1.4-1
 - First build.
